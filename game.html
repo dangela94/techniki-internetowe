@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html>
+	<head >
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="plik.css" type="txt/css"/>
+		
+		
+	
+	</head>
+	<header>
+	
+
+		<h1 >  Sesja nadchodzi </h1>
+ 
+		
+		
+
+	</header>
+
+	<nav>
+    <ul class="menu">
+        <li><a href="plik.html"   id="stronaglowna" >Strona główna</a></li>
+		<li><a href="game.html" class = "active" id="gra" > Gra </a></li>
+		<li><a href="łms.html"  > ŁMS</a> </li>
+		<li><a href="obrazkowa.html"  > Metoda obrazkowa</a></li>
+        
+    </ul>
+</nav>
+	<body >
+	<section>
+			<h3> Zasady gry : </h3>
+				<p>Prosta nieskomplikowana gra mająca na celu zapewnienie rozrywki przed stresującym sesyjnym czasem.
+				Zasady są proste : jak najdłużej omijaj wszystkie elementy które Ci przeszkadzają w nauce!
+				<p>Strowanie :  <kbd>W</kbd>, <kbd>S</kbd>, <kbd>A</kbd>, <kbd>D</kbd></p>
+			<h3> Powodzenia! </h3> 
+		</section>
+	 <section class="block-labeled">
+         <fieldset>
+            <legend>Ustawienia gry </legend>
+            <label>Maksymalnie przeszkód :
+				<input type="number" value="25" id="num" required />
+			</label> 
+        </fieldset>
+		<fieldset>
+			<legend>Czas gry : </legend>
+			<p id="czas" > </p>		
+		</fieldset>
+        <div class="button-row center">
+            	<input type="button" id="start" value="Start!" />
+        </div>
+    </section>
+		<canvas width="1050" height="600" id="canvas">
+		</canvas>
+	<section>
+	<footer>
+    <p><small>Autor: <em>Angelika Dudek.</em></small></p>
+	
+
+	</footer>
+
+	</body>
+	<script type="text/javascript" charset="UTF-8" src="game.js"></script>
+		
+
+</html>
